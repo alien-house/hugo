@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017s on alien-blog</title>
-    <link>http://example.org/2017/</link>
+    <link>http://blog.alien-house.com/2017/</link>
     <description>Recent content in 2017s on alien-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Dec 2017 13:12:55 -0800</lastBuildDate>
     
-	<atom:link href="http://example.org/2017/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.alien-house.com/2017/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>React 7 Tips for beginners on Getting Started</title>
-      <link>http://example.org/2017/react_guide_for_beginners/</link>
+      <link>http://blog.alien-house.com/2017/react_guide_for_beginners/</link>
       <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
       
-      <guid>http://example.org/2017/react_guide_for_beginners/</guid>
+      <guid>http://blog.alien-house.com/2017/react_guide_for_beginners/</guid>
       <description>Now 2017, although It has been for over 4 years from the Initial release of React, I haven&amp;rsquo;t introduced it to my projects yet😓 I want to learn so that I dive into React and implemented some projects. In order to get used to the one of a front-end technology. I found out something necessary topics during the creating some Apps. Here are the most important 7 concepts when you create React Web App.</description>
     </item>
     

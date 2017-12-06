@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on alien-blog</title>
-    <link>http://example.org/tags/</link>
+    <link>http://blog.alien-house.com/tags/</link>
     <description>Recent content in Tags on alien-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Dec 2017 13:12:55 -0800</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.alien-house.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Javascript</title>
-      <link>http://example.org/tags/javascript/</link>
+      <link>http://blog.alien-house.com/tags/javascript/</link>
       <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
       
-      <guid>http://example.org/tags/javascript/</guid>
+      <guid>http://blog.alien-house.com/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>http://example.org/tags/react/</link>
+      <link>http://blog.alien-house.com/tags/react/</link>
       <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
       
-      <guid>http://example.org/tags/react/</guid>
+      <guid>http://blog.alien-house.com/tags/react/</guid>
       <description></description>
     </item>
     
