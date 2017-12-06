@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on alien-blog</title>
     <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on alien-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Nov 2017 20:51:22 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Dec 2017 13:12:55 -0800</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>http://example.org/tags/</link>
-      <pubDate>Wed, 29 Nov 2017 20:51:22 -0800</pubDate>
+      <title>Javascript</title>
+      <link>http://example.org/tags/javascript/</link>
+      <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
       
-      <guid>http://example.org/tags/</guid>
+      <guid>http://example.org/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>http://example.org/tags/react/</link>
+      <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
+      
+      <guid>http://example.org/tags/react/</guid>
       <description></description>
     </item>
     

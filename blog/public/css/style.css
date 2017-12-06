@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Rokkitt:200,300|Lato:100,200,300,400,700');
 /* Reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -90,20 +91,21 @@ h2 {
 }
 
 .profile h1 {
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 0px;
 	font-size: 20px;
+	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #222;
 }
 
 .profile h2 {
-	font-size: 20px;
-	  font-weight: 300;
-	  color: #aaa;
-	  margin-top: 10px;
-	  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	  font-style: normal;
-
+	font-size: 14px;
+	font-weight: 400;
+	color: #aaa;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
 }
 
 nav.main-nav {
@@ -167,23 +169,28 @@ a,
 	color: #5694f1;
 }
 
+a:hover {
+	/*color: #444;*/
+	opacity: 0.8;
+}
 p a { color: #5694f1; }
 
 /*Transitions*/
 a,
 #post-nav a,
 #post-list a	{
-	-webkit-transition: all 0.15s ease;
-	-moz-transition: all 0.15s ease;
-	-ms-transition: all 0.15s ease;
-	-o-transition: all 0.15s ease;
-	transition: all 0.15s ease;
+	-webkit-transition: all 0.55s ease;
+	-moz-transition: all 0.55s ease;
+	-ms-transition: all 0.55s ease;
+	-o-transition: all 0.55s ease;
+	transition: all 0.55s ease;
 }
 
-ul, ol 	{ margin:0; padding:0; margin-bottom: 20px; }
+ul, ol { margin:0; padding:0; margin-bottom: 20px; }
+ul ul, ol ol,ul ol, ol ul { margin:0; padding:0; margin-left: 20px; }
 ul { list-style-type:circle; }
 ol { list-style: decimal; }
-li	{  list-style-position:inside; }
+li	{  list-style-position:inside; margin-bottom: 5px; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -207,8 +214,6 @@ em, i { font-style: italic; }
 	color: #aaa;
 }
 
-
-
 .home h1 {
 	font-size: 30px;
 	letter-spacing: -1px;
@@ -223,37 +228,64 @@ em, i { font-style: italic; }
 
 .post header {
 	text-align:center;
-
+	margin: 0 0 40px;
 }
 
 .post h1 {
 	margin-bottom: 0px;
 	color: #222;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	/*font-family: Montserrat;*/
+/*	margin-right: -3px;
+	letter-spacing: 3px;*/
 }
 
 .post h2 {
-	margin-bottom: 40px;
-	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
-	  color: #111;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*font-family: Montserrat;*/
+	color: #111;
+	font-weight:bold;
 }
 
 .post h2.subtitle {
 	font: italic 19px/1.3em Georgia,serif;
+	/*font-family: Montserrat;*/
 	color: #bbb;
 }
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
 	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin: -5px 0 40px 0;
+	margin: -5px 0 5px 0;
 	color: #b2b9be;
-	  font-size: 13px;
-	  text-transform: uppercase;
-	  letter-spacing: 2px;
-	  /*margin-top: 15px;*/
-	  display: inline-block;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/*margin-top: 15px;*/
+	display: inline-block;
 }
+.tags{
+	list-style-type: none;
+}
+.tags li{
+	display: inline-block;
+}
+.tags li a{
+	font-size: 12px;
+	color: #5694f1;
+	background: #d7e7ff;
+	padding:3px 6px;
+	border-radius: 3px;
+}
+.tags li a:hover{
+}
+
+
+
+
 
 #post-list h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -262,7 +294,9 @@ em, i { font-style: italic; }
 	margin-top: 2px;
 }
 
-h3, h4, h5 { color:#333; }
+h3, h4, h5 { color:#333; 
+	/*font-family: Montserrat;*/
+}
 
 h3 { font-size:20px; font-weight: 400; }
 h4 { font-size:16px; font-weight:bold; }
@@ -652,9 +686,10 @@ h2.month {
 
 a.symbol {
     color: #cdd4da;
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-decoration: none;
     margin-right: 0.3rem;
+    margin: 0 10px;
 }
 
 a.symbol:hover {

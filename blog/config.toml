@@ -1,7 +1,22 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "alien-blog"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
 
 [params]
-  name = "Tesla's Awesome Hugo Site"
-  bio = "Nikola Tesla"
+	name = "Alien Blog"
+	bio = "Shinji Nakai"
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+
+	# Sharing options and author information in posts
+	aboutAuthor = "I am a web developer who lives in Vancouver, Canada."
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/"
+    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/"
+    #dribble  = "https://www.dribbble.com/"
+

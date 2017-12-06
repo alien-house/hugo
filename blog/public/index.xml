@@ -1,45 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>alien-blog</title>
     <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on alien-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Nov 2017 20:51:22 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Dec 2017 13:12:55 -0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>2015 05 14_loremipsum</title>
-      <link>http://example.org/2017/loremipsum/</link>
-      <pubDate>Wed, 29 Nov 2017 20:51:22 -0800</pubDate>
+      <title>React 7 Tips for beginners on Getting Started</title>
+      <link>http://example.org/2017/react_guide_for_beginners/</link>
+      <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
       
-      <guid>http://example.org/2017/loremipsum/</guid>
-      <description>#Title Hello this is
- Simple and clean design Responsive design Pagination Tagging Disqus Source code highlighting Google Analytics  Screenshot All of the display here.
-Installation Installation2 Clone this repository to your hugo theme directory.
-cd themes git clone https://github.com/tanksuzuki/angels-ladder hugo server -t angels-ladder -D -w  Configuration To take full advantage of the features in this theme, you can add variables to your site config file.
-The following is the example configuration.</description>
-    </item>
-    
-    <item>
-      <title>Test2</title>
-      <link>http://example.org/test2/</link>
-      <pubDate>Wed, 29 Nov 2017 19:15:48 -0800</pubDate>
-      
-      <guid>http://example.org/test2/</guid>
-      <description>#Title test2 Hello this test2 is</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>http://example.org/2017/test/</link>
-      <pubDate>Wed, 29 Nov 2017 19:15:43 -0800</pubDate>
-      
-      <guid>http://example.org/2017/test/</guid>
-      <description>#Title test Hello this test is</description>
+      <guid>http://example.org/2017/react_guide_for_beginners/</guid>
+      <description>Now 2017, although It has been for over 4 years from the Initial release of React, I haven&amp;rsquo;t introduced it to my projects yet😓 I want to learn so that I dive into React and implemented some projects. In order to get used to the one of a front-end technology. I found out something necessary topics during the creating some Apps. Here are the most important 7 concepts when you create React Web App.</description>
     </item>
     
   </channel>
