@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Alien Blog">
+
+<meta name="generator" content="Hugo 0.31.1" />
+<title>React 7 Tips for Beginners on Getting Started</title>
+<link rel="shortcut icon" href="http://blog.alien-house.com/images/favicon.ico">
+<link rel="stylesheet" href="http://blog.alien-house.com/css/style.css">
+<link rel="stylesheet" href="http://blog.alien-house.com/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+
+
+<link href="http://blog.alien-house.com/index.xml" rel="alternate" type="application/rss+xml" title="alien-blog" />
+
+
+<meta property="og:title" content="React 7 Tips for Beginners on Getting Started" />
+<meta property="og:description" content="These are for beginners and to keeping in mind for me as well." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.alien-house.com/2017/react_7_tips_for_beginners/" />
+
+
+
+<meta property="article:published_time" content="2017-12-04T13:12:55-08:00"/>
+
+<meta property="article:modified_time" content="2017-12-04T13:12:55-08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="React 7 Tips for Beginners on Getting Started">
+<meta itemprop="description" content="These are for beginners and to keeping in mind for me as well.">
+
+
+<meta itemprop="datePublished" content="2017-12-04T13:12:55-08:00" />
+<meta itemprop="dateModified" content="2017-12-04T13:12:55-08:00" />
+<meta itemprop="wordCount" content="884">
+
+
+
+<meta itemprop="keywords" content="react,javascript," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="React 7 Tips for Beginners on Getting Started"/>
+<meta name="twitter:description" content="These are for beginners and to keeping in mind for me as well."/>
+<meta name="twitter:site" content="@https://twitter.com/alien_house"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='http://blog.alien-house.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+ 		<a href='/about/'>About</a>
+  	
+
+	
+		<a class="cta" href="http://blog.alien-house.com/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <figure class="thumbnail">
+            <img class="React 7 Tips for Beginners on Getting Started" src="/images/2017/react_guide_for_beginners.jpg">
+        </figure>
+        <h1>React 7 Tips for Beginners on Getting Started</h1>
+        <h2 class="subtitle">These are for beginners and to keeping in mind for me as well.</h2>
+        <h2 class="headline">
+        December 4, 2017
+        </h2>
+        
+        
+        <ul class="tags">
+            
+                <li><a href="http://blog.alien-house.com/tags/react">react</a></li>
+            
+                <li><a href="http://blog.alien-house.com/tags/javascript">javascript</a></li>
+            
+        
+        </ul>
+        
+    </header>
+    <section id="post-body">
+        
+
+<p>Now 2017, although It has been for over 4 years from the Initial release of React, I haven&rsquo;t introduced it to my projects yet😓  I want to learn so that I dive into React and implemented some projects. In order to get used to the one of a front-end technology.
+I found out something necessary topics during the creating some Apps. Here are the most important 7 concepts when you create React Web App.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ol>
+<li><a href="#what-is-react">What is React?</a>
+
+<ul>
+<li><a href="#how-can-you-start-to-create-react-app">How can you start to create React App?</a></li>
+</ul></li>
+<li><a href="#what-makes-react-so-fast">What makes React so fast?</a></li>
+<li><a href="#what-is-the-lifecycle-of-a-react-component">What is the lifecycle of a React component?</a></li>
+<li><a href="#what-is-jsx">What is JSX?</a></li>
+<li><a href="#what-are-state-and-props">What are State and Props?</a></li>
+<li><a href="#what-is-refs">What is refs?</a></li>
+<li><a href="#what-is-pros-and-cons-of-react">What is pros and cons of React?</a></li>
+</ol>
+
+<h2 id="what-is-react">What is React?</h2>
+
+<blockquote>
+<p>&ldquo;A JavaScript library for building user interfaces.&rdquo;<br />
+&ldquo;React is an open-source JavaScript library for building user interfaces created by Facebook in web and mobile applications.&rdquo;</p>
+</blockquote>
+
+<p>One of the benefits of the React is to make developing a large scale single page application easier.
+Another feature of React is the virtual DOM. whenever a change happens, the virtual DOM efficiently re-renders the DOM.</p>
+
+<h3 id="how-can-you-start-to-create-react-app">How can you start to create React App?</h3>
+
+<p>When you want to start create an actual project, then you can use <a href="https://reactjs.org/docs/installation.html#creating-a-new-application">&ldquo;create-react-app&rdquo;</a>.</p>
+
+<pre><code>npm install -g create-react-app
+create-react-app my-app
+
+cd my-app
+npm start
+</code></pre>
+
+<p>It&rsquo;s so simple! You don&rsquo;t need to worry about any dependencies like Babel and webpack. it will be automatically installed.</p>
+
+<h4 id="requiement">Requiement</h4>
+
+<ul>
+<li>Node &gt;= 6</li>
+<li>npm 5.2.0+</li>
+</ul>
+
+<p>*If you want to use as a part of project. you need to install by yourself.<br />
+<a href="https://reactjs.org/docs/installation.html#adding-react-to-an-existing-application">Adding React to an Existing Application</a></p>
+
+<h2 id="what-makes-react-so-fast">What makes React so fast?</h2>
+
+<p>React has a virtual DOM that writes to the browser DOM only when it needs to.
+When we call the render function, React will update the virtual DOM. That will push only the necessary changes to the real DOM.</p>
+
+<blockquote>
+<ol>
+<li>Whenever anything may have changed, the entire UI will be re-rendered in a Virtual DOM representation.</li>
+<li>The difference between the previous Virtual DOM representation and the new one will be calculated.</li>
+<li>The real DOM will be updated with what has actually changed. This is very much like applying a patch.</li>
+</ol>
+</blockquote>
+
+<h2 id="what-is-the-lifecycle-of-a-react-component">What is the lifecycle of a React component?</h2>
+
+<p>When render() method is called when is state or props has changed, fall into following step:</p>
+
+<blockquote>
+<p>React components have lifecycle events that fall into three general categories:</p>
+
+<ol>
+<li>Initialization ex.componentwillmount()</li>
+<li>State/Property Updates</li>
+<li>Destruction</li>
+</ol>
+</blockquote>
+
+<p>and here are more in detail:</p>
+
+<h3 id="mounting">Mounting</h3>
+
+<p>Mounting flow is just called once when a component is created.</p>
+
+<ol>
+<li>constructor()</li>
+<li>componentDidMount()</li>
+<li>componentWillUnmount()</li>
+<li>render()</li>
+</ol>
+
+<h3 id="updating">Updating</h3>
+
+<p>When states or props change, the flow is going to be executed.</p>
+
+<ol>
+<li>componentWillReceiveProps()</li>
+<li>shouldComponentUpdate()</li>
+<li>componentWillUpdate()</li>
+<li>render()</li>
+<li>componentDidUpdate()</li>
+</ol>
+
+<p>What I want to show here is you can filter whether a specific states or props change or not, in order to reduce rendering.</p>
+
+<h2 id="what-is-jsx">What is JSX?</h2>
+
+<blockquote>
+<p>It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.</p>
+</blockquote>
+
+<p>As React maker recommend that, it is not requirement. However, if you use JSX, you can write simpler. because its like a HTML syntax. React provides virtual DOM that you can create them using &ldquo;React.createElement&rdquo;.<br />
+Here are the compare to creating DOM using JSX and React.createElement:</p>
+
+<p><strong>JSX:</strong></p>
+
+<pre><code>const App = (props) =&gt; {
+    return (
+        &lt;div&gt;
+            &lt;a&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    )
+}
+</code></pre>
+
+<p><strong>React.createElement:</strong></p>
+
+<pre><code>var App = function App(props) {
+    return React.createElement(
+        &quot;div&quot;, 
+        null,
+        React.createElement(&quot;a&quot;, null)
+    );
+}
+</code></pre>
+
+<h2 id="what-are-state-and-props">What are State and Props?</h2>
+
+<p>State is mutable data. and maintained by component. it can be changed but should be considered as private.</p>
+
+<p>Props (properties) are values which are passed into a component from its parent. Props are immutable data. it can&rsquo;t be changed.</p>
+
+<h2 id="what-is-refs">What is refs?</h2>
+
+<p>When we want to check or find the specific components, if you use refs, you can get and manipulate it.</p>
+
+<blockquote>
+<p>There are a few good use cases for refs:</p>
+
+<ul>
+<li>Managing focus, text selection, or media playback.</li>
+<li>Triggering imperative animations.</li>
+<li>Integrating with third-party DOM libraries.</li>
+</ul>
+</blockquote>
+
+<p><a href="https://reactjs.org/docs/refs-and-the-dom.html">https://reactjs.org/docs/refs-and-the-dom.html</a></p>
+
+<p>Also, if the child comment which has method, its can be called the method from parent component.</p>
+
+<h2 id="what-is-pros-and-cons-of-react">What is pros and cons of React?</h2>
+
+<h3 id="pros">Pros</h3>
+
+<ul>
+<li>If you are familiar with Javascript based project, Learning Curve is relatively low.</li>
+<li>It can be used Javascript(ES6).</li>
+<li>site performance is good in terms of using Virtual DOM.</li>
+<li>JSX you are supposed to use is looks similar to HTML.</li>
+<li>React is library, so that you can combine any other liberies.</li>
+</ul>
+
+<h3 id="cons">Cons</h3>
+
+<ul>
+<li>If you have never created project Javascript main, you need to  learn ES6 and class-based concepts first.</li>
+<li>It&rsquo;s so simple that is often needed other libraries such as React-router or Redux.</li>
+<li>It might be complex and messy because it is going to be so many components as the project became bigger.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Through the React App creating, it&rsquo;s easier to create than using pure Javascript from scratch. There is still a lot of things I need to learn more such as getting used to ES6, Redux (and concepts of Flux), creating React library, comparing other framework and libraries. I&rsquo;m gonna post after research these things.</p>
+
+<h2 id="general-reference-and-related-articles">General Reference and Related articles</h2>
+
+<ul>
+<li><a href="https://reactjs.org/docs/react-component.html">DOCS : React.Component</a></li>
+<li><a href="https://www.codementor.io/blog/5-essential-reactjs-interview-questions-du1084ym1">5 Essential React.js Interview Questions and Answers</a></li>
+<li><a href="https://medium.freecodecamp.org/everything-you-need-to-know-about-react-eaedf53238c4">Everything You Should Know About React: The Basics You Need to Start Building</a></li>
+</ul>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    
+    <img class="avatar" src="http://blog.alien-house.com/images/avatar.png">
+    <div>
+        <span class="dark">Alien Blog</span>
+        <span>I am a web developer who lives in Vancouver, Canada.</span>
+    </div>
+    
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fblog.alien-house.com%2f2017%2freact_7_tips_for_beginners%2f - React%207%20Tips%20for%20Beginners%20on%20Getting%20Started "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/alien-house">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://twitter.com/alien_house">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2017 Alien Blog
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://blog.alien-house.com/js/main.js"></script>
+<script src="http://blog.alien-house.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+</html>

@@ -220,7 +220,6 @@ em, i { font-style: italic; }
 	color: #222;
 	font-weight: bold;
 }
-
 .home h2 {
 	font: italic 19px/1.3em Georgia,serif;
 	color: #bbb;
@@ -230,19 +229,21 @@ em, i { font-style: italic; }
 	text-align:center;
 	margin: 0 0 40px;
 }
-
+.post .thumbnail{
+	margin: 0 0 30px;
+}
 .post h1 {
 	margin-bottom: 0px;
 	color: #222;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 	font-weight: 600;
 	/*font-family: Montserrat;*/
-/*	margin-right: -3px;
-	letter-spacing: 3px;*/
+/*	margin-right: -3px;*/
+	letter-spacing: 0.3px;
 }
 
 .post h2 {
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	/*font-family: Montserrat;*/
@@ -423,23 +424,43 @@ Post List
 	padding-bottom: 20px;
 	list-style-type: none;
 	margin-bottom: 0;
+	display: flex;
 }
 
 #post-list li:last-child {
 	border-bottom: 1px solid #eee;
 }
 
+#post-list li .thumbnail{
+	width: 160px;
+	height: 80px;
+}
+#post-list li .thumbnail img{
+}
 #post-list a {
 	color: #333;
 	display: block;
+}
+#post-list .post-data{
+	margin: 0;
+	padding: 0 0 0 10px;
+	line-height: 1;
+}
+#post-list h2{
+	color: #333;
+	line-height: 1.2;
+	max-width: 100%;
 	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
-
+#post-list p{
+	color: #999;
+	line-height: 1.2;
+	font-size: 15px;
+	margin-bottom: 0;
+}
 #post-list .dates {
-	float: right;
-	position: relative;
-	top: 1px;
-	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	/*float: right;*/
+	font: 400 15px/1.2 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
 }
 
@@ -476,7 +497,7 @@ Post List
 
 /* Post Page */
 .post {
-	margin: 80px 0 0 0;
+	margin: 30px 0 0 0;
 }
 
 #post-meta {
