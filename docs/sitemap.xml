@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.alien-house.com/2017/front_end_developer_environment_setup/</loc>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.alien-house.com/2017/react_7_tips_for_beginners/</loc>
     <lastmod>2017-12-04T13:12:55-08:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>http://blog.alien-house.com/2017/</loc>
-    <lastmod>2017-12-04T13:12:55-08:00</lastmod>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -24,8 +29,26 @@
   </url>
   
   <url>
+    <loc>http://blog.alien-house.com/tags/front-end/</loc>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.alien-house.com/tags/gulp/</loc>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.alien-house.com/tags/javascript/</loc>
-    <lastmod>2017-12-04T13:12:55-08:00</lastmod>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.alien-house.com/tags/node.js/</loc>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,13 +60,19 @@
   
   <url>
     <loc>http://blog.alien-house.com/tags/</loc>
-    <lastmod>2017-12-04T13:12:55-08:00</lastmod>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.alien-house.com/tags/webpack/</loc>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.alien-house.com/</loc>
-    <lastmod>2017-12-04T13:12:55-08:00</lastmod>
+    <lastmod>2017-12-14T14:08:40-08:00</lastmod>
     <priority>0</priority>
   </url>
   

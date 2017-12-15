@@ -6,18 +6,23 @@
     <description>Recent content in Javascript on alien-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Dec 2017 13:12:55 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 Dec 2017 14:08:40 -0800</lastBuildDate>
+    <atom:link href="/tags/javascript/" rel="self" type="application/rss+xml"/>
     
-	<atom:link href="http://blog.alien-house.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Front-End Development Environment Template I use</title>
+      <link>http://blog.alien-house.com/2017/front_end_developer_environment_setup/</link>
+      <pubDate>Thu, 14 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com/images/2017/front_end_developer_environment_setup.jpg</thumbnail>
+      <description>I&#39;ll introduce my Front-End package which is using webpack and gulp.</description>
+    </item>
     
     <item>
       <title>React 7 Tips for Beginners on Getting Started</title>
       <link>http://blog.alien-house.com/2017/react_7_tips_for_beginners/</link>
-      <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
-      
-      <guid>http://blog.alien-house.com/2017/react_7_tips_for_beginners/</guid>
-      <description>Now 2017, although It has been for over 4 years from the Initial release of React, I haven&amp;rsquo;t introduced it to my projects yet😓 I want to learn so that I dive into React and implemented some projects. In order to get used to the one of a front-end technology:) I found out something necessary topics during the creating some Apps. Here are the most important 7 concepts when you create React Web App.</description>
+      <pubDate>Mon, 04 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com/images/2017/react_guide_for_beginners.jpg</thumbnail>
+      <description>These are for beginners and to keeping in mind for me as well.</description>
     </item>
     
   </channel>

@@ -6,26 +6,54 @@
     <description>Recent content in Tags on alien-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Dec 2017 13:12:55 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 Dec 2017 14:08:40 -0800</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml"/>
     
-	<atom:link href="http://blog.alien-house.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front End</title>
+      <link>http://blog.alien-house.com/tags/front-end/</link>
+      <pubDate>Thu, 14 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com</thumbnail>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Gulp</title>
+      <link>http://blog.alien-house.com/tags/gulp/</link>
+      <pubDate>Thu, 14 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com</thumbnail>
+      <description></description>
+    </item>
     
     <item>
       <title>Javascript</title>
       <link>http://blog.alien-house.com/tags/javascript/</link>
-      <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
-      
-      <guid>http://blog.alien-house.com/tags/javascript/</guid>
+      <pubDate>Thu, 14 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com</thumbnail>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://blog.alien-house.com/tags/node.js/</link>
+      <pubDate>Thu, 14 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
       <link>http://blog.alien-house.com/tags/react/</link>
-      <pubDate>Mon, 04 Dec 2017 13:12:55 -0800</pubDate>
-      
-      <guid>http://blog.alien-house.com/tags/react/</guid>
+      <pubDate>Mon, 04 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com</thumbnail>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webpack</title>
+      <link>http://blog.alien-house.com/tags/webpack/</link>
+      <pubDate>Thu, 14 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>
     </item>
     
