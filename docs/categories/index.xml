@@ -8,5 +8,13 @@
     <language>en-us</language>
     <atom:link href="/categories/" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>Development</title>
+      <links>http://blog.alien-house.com/categories/development/</links>
+      <pubDate>Thu, 14 Dec 2017</pubDate>
+      <thumbnail>http://blog.alien-house.com</thumbnail>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

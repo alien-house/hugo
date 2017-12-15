@@ -11,7 +11,7 @@
     
     <item>
       <title>Front End</title>
-      <link>http://blog.alien-house.com/tags/front-end/</link>
+      <links>http://blog.alien-house.com/tags/front-end/</links>
       <pubDate>Thu, 14 Dec 2017</pubDate>
       <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>
@@ -19,7 +19,7 @@
     
     <item>
       <title>Gulp</title>
-      <link>http://blog.alien-house.com/tags/gulp/</link>
+      <links>http://blog.alien-house.com/tags/gulp/</links>
       <pubDate>Thu, 14 Dec 2017</pubDate>
       <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>
@@ -27,7 +27,7 @@
     
     <item>
       <title>Javascript</title>
-      <link>http://blog.alien-house.com/tags/javascript/</link>
+      <links>http://blog.alien-house.com/tags/javascript/</links>
       <pubDate>Thu, 14 Dec 2017</pubDate>
       <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>
@@ -35,7 +35,7 @@
     
     <item>
       <title>Node.js</title>
-      <link>http://blog.alien-house.com/tags/node.js/</link>
+      <links>http://blog.alien-house.com/tags/node.js/</links>
       <pubDate>Thu, 14 Dec 2017</pubDate>
       <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>
@@ -43,7 +43,7 @@
     
     <item>
       <title>React</title>
-      <link>http://blog.alien-house.com/tags/react/</link>
+      <links>http://blog.alien-house.com/tags/react/</links>
       <pubDate>Mon, 04 Dec 2017</pubDate>
       <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>
@@ -51,7 +51,7 @@
     
     <item>
       <title>Webpack</title>
-      <link>http://blog.alien-house.com/tags/webpack/</link>
+      <links>http://blog.alien-house.com/tags/webpack/</links>
       <pubDate>Thu, 14 Dec 2017</pubDate>
       <thumbnail>http://blog.alien-house.com</thumbnail>
       <description></description>

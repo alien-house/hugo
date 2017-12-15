@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webpack on alien-blog</title>
-    <link>http://blog.alien-house.com/tags/webpack/</link>
-    <description>Recent content in Webpack on alien-blog</description>
+    <title>Development on alien-blog</title>
+    <link>http://blog.alien-house.com/categories/development/</link>
+    <description>Recent content in Development on alien-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Dec 2017 14:08:40 -0800</lastBuildDate>
-    <atom:link href="/tags/webpack/" rel="self" type="application/rss+xml"/>
+    <atom:link href="/categories/development/" rel="self" type="application/rss+xml"/>
     
     <item>
       <title>Front-End Development Environment Template I use</title>

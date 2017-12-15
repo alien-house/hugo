@@ -11,7 +11,7 @@
     
     <item>
       <title>Front-End Development Environment Template I use</title>
-      <link>http://blog.alien-house.com/2017/front_end_developer_environment_setup/</link>
+      <links>http://blog.alien-house.com/2017/front_end_developer_environment_setup/</links>
       <pubDate>Thu, 14 Dec 2017</pubDate>
       <thumbnail>http://blog.alien-house.com/images/2017/front_end_developer_environment_setup.jpg</thumbnail>
       <description>I&#39;ll introduce my Front-End package which is using webpack and gulp.</description>
